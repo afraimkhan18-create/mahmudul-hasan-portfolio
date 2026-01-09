@@ -118,6 +118,7 @@ nav .manu a{
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 }
 .section-heading h2{
     font-size: 32px;
@@ -164,4 +165,43 @@ nav .manu a{
 .about-info .info-cad h4{
     font-size: 20px;
     font-weight: bold;
+}
+
+#skills{
+    padding-top: 130px;
+}
+
+#skills .skills-container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#skills .skills-container .skills-box{
+    display: flex;
+    gap: 24px;
+}
+
+.skills-box .skill-card{
+    padding: 30px;
+    /* border: solid darkblue; */
+    box-shadow: 0 6px 50px 0 #00000071;
+    max-width: 267px;
+}
+
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.skill-ca p{
+      font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
